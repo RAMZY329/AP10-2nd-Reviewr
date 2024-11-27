@@ -1,0 +1,112 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+/* Quiz Container */
+#quiz-container {
+    max-width: 600px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Header */
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #5e5ce6;
+}
+
+/* Question Styling */
+#question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Options List */
+#options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#options li {
+    background: #fcd34d;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+#options li:hover {
+    transform: scale(1.05);
+    background-color: #ffb703;
+}
+
+#options li.correct {
+    background: #38b000;
+    color: #fff;
+}
+
+#options li.incorrect {
+    background: #e63946;
+    color: #fff;
+}
+
+/* Score Display */
+#score-container {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #question {
+        font-size: 1em;
+    }
+
+    #options li {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #quiz-container {
+        padding: 15px;
+    }
+
+    #options li {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    #score-container {
+        font-size: 1em;
+    }
+}
