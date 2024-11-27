@@ -205,7 +205,7 @@ const questions = [
             "c. Irrelevant migration",
             "d. Net migration"
         ],
-        answer: 1
+        answer: 0
     },
     {
         question: "22. Uuwi mula Kuwait si More dahil sa kasalukuyang pandemya. Alin sa sumusunod na sitwasyon ang tinutukoy dito?",
@@ -215,7 +215,7 @@ const questions = [
             "c. Irrelevant migration",
             "d. Net migration"
         ],
-        answer: 0
+        answer: 1
     },
     {
         question: "23. Ang pamilya ni Mark ay lumikas dahil ng sigalot sa kanilang lugar. Alin sa sumusunod na dahilan ng migrasyon ang ipinapakita nito?",
@@ -335,7 +335,7 @@ const questions = [
             "c. Guarded globalization",
             "d. Fair trade"
         ],
-        answer: 1
+        answer: 3
     },
     {
         question: "35. Alin sa mga sumusunod ang HINDI nagpapakita ng fair trade?",
@@ -355,7 +355,7 @@ const questions = [
             "c. Guarded globalization",
             "d. Pagtulong sa Bottom Line"
         ],
-        answer: 3
+        answer: 0
     },
     {
         question: "37. Pagpapataw ng angkop na presyo sa pagitan ng mamimili at nagbibili.",
@@ -385,7 +385,7 @@ const questions = [
             "c. Guarded globalization",
             "d. Pagtulong sa Bottom Line"
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: "40. Pamamahagi ng tulong pinansiyal sa mga negosyante.",
@@ -395,7 +395,7 @@ const questions = [
             "c. Guarded globalization",
             "d. Pagtulong sa Bottom Line"
         ],
-        answer: 3
+        answer: 2
     },
 ];
 
